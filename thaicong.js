@@ -339,7 +339,7 @@ const ua = generateUserAgent(getRandomBrowser())
         { "origin": "https://" + parsedTarget.host  },
         { "referer": "https://" + parsedTarget.host + "/" },
         {"Origin-Request" : "/" + generateRandomString(3,6)},
-        {"accept-language" : 'en-US,en;q=0.9', }
+        {"accept-language" : 'en-US,en;q=0.9'}
         ];
 let headers = {
   ":authority": parsedTarget.host,
